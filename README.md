@@ -21,7 +21,7 @@ APACHE NETBEANS
     	(
     	[nombre] ASC
     	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-    ) ON [PRIMARY]
+        ) ON [PRIMARY]
 
 * Seguidamente se debe levantar el servidor de aplicaciones y configurar el Connection Pools y JDBC Resources con los datos de la base de datos respectivamente. Es importante verificar el PING de la conexión con la base.
 
