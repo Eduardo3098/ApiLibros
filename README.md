@@ -9,7 +9,8 @@ APACHE NETBEANS
 
 ## PROCEDIMIENTO
 * Se debe crear la tabla en cualquier base de datos en SQL SERVER mediante el siguiente script: 
-    	CREATE TABLE [dbo].[Libro](
+    	
+        CREATE TABLE [dbo].[Libro](
     	[nombre] [varchar](150) NOT NULL,
     	[descripcion] [varchar](300) NULL,
     	[autor] [varchar](150) NULL,
